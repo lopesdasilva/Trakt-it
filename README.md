@@ -1,6 +1,6 @@
 [![bitrise Badge](https://www.bitrise.io/app/4f2462eed8427390.svg?token=YtYnH8gCx_1_zlkPWjxc4Q)](https://www.bitrise.io/app/4f2462eed8427390)
 
-[![Versioneye Badge](https://www.versioneye.com/user/projects/57f428d8886dd100475decea/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57f428d8886dd100475decea)
+[![Versioneye Badge](√?style=flat-square)](https://www.versioneye.com/user/projects/584a0993df01d500374be6a2)
 
 # README #
 

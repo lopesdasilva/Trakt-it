@@ -1,0 +1,29 @@
+{
+  "name": "TraktBeta",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "logs-android-js": "react-native log-android",
+    "logs-android-native": "adb logcat",
+    "logs-ios-js": "react-native log-ios",
+    "run-android": "sudo react-native run-android",
+    "run-ios6s": "react-native run-ios",
+    "lint": "semistandard --verbose | snazzy",
+    "test": "npm run lint && mocha app/**/*.test.js --require react-native-mock/mock.js --require ignore-styles --compilers js:babel-core/register app/**/*.test.js",
+    "test:watch": "mocha app/**/*.test.js --require react-native-mock/mock.js --require ignore-styles --compilers js:babel-core/register --reporter min --watch",
+    "run-ios5s": "react-native run-ios --simulator 'iPhone 5s'",
+    "run-ios4s": "react-native run-ios --simulator 'iPhone 4s'",
+    "soap": "node tools/SoapHeaders.js",
+    "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean",
+    "link": "node node_modules/react-native/local-cli/cli.js link"
+  },
+  "dependencies": {
+    "native-base": "^0.5.9",
+    "react": "15.3.2",
+    "react-native": "^0.36.1",
+    "react-native-material-design": "^0.3.7",
+    "react-native-responsive-image": "^1.3.0",
+    "react-native-vector-icons": "^3.0.0"
+  }
+}
